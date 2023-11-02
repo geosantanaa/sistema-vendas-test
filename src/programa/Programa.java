@@ -4,6 +4,7 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 
+import testes.CarrinhoDeComprasTest;
 import testes.CompraTest;
 import testes.EstoqueTest;
 import testes.FornecedorTest;
@@ -16,7 +17,8 @@ public class Programa {
 				ProdutoTest.class,
 				FornecedorTest.class,
 				EstoqueTest.class,
-				CompraTest.class				
+				CompraTest.class,
+				CarrinhoDeComprasTest.class
 		);
 
 		for (Failure failure : result.getFailures()) {
